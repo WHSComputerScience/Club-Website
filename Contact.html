@@ -1,23 +1,79 @@
-
 <!DOCTYPE html>
-<html lang = "en">
-<Head>
-<Title>
-Contact info CS club
-</Title>
-</Head>
-<body>
-<h1><center>Contact info</center></h1>
-<h1><center>Leaders</center></h1>
-<h3><center>Lucas verdena: <a href="https://classroom.google.com/u/0/c/ODc3MTEzMDc5MzM1">placeholder</a></center></h3>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Computer Science Club</title>
+<style>
+body {
+    background-color: rgb(228, 253, 253);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(99, 30, 8);
+}
+.nav h1 {
+    color: black;
+    margin: 0 10px 0 auto;
+    font-size: 40px;
+}
+.nav a {
+    text-decoration: none;
+}
+button {
+    width: 150px;
+    height: 70px;
+    font-weight: bold;
+    border-width: 3px;
+    border-style: initial;
+    border-color: rgb(89, 17, 12);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background-color: rgb(99, 30, 8);
+    font-size: 17px;
+    color: white;
+}
 
-<h3><center>Logan Corsa: <a href="https://classroom.google.com/u/0/c/ODc3MTEzMDc5MzM1">-placeholder</a></center></h3>
-<h3><center>Click the button to know more about us!</center></h3>
-<center><button >CLICK ME</button></center>
-<div>
-<h1><center>Calander</center></h1>
-<br>
-<h3><center>Here are some of our upcoming events and projects!</center></h3>
+button:hover {
+    background-color: rgb(229, 229, 232);
+    width: 155px;
+    height: 75px;
+    color: rgb(99, 30, 8);
+}
+.center {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+    <a href="index.html"><button>Home</button></a>
+    <a href="about.html"><button>About</button></a>
+    <a href="projects.html"><button>Projects</button></a>
+    <a href="#contact"><button>Contact</button></a>
+    <h1 style="color: azure; padding-right:25px;">Computer Science Club</h1>
 </div>
+
+<h1 id="contact" class="center">Contact Our Leaders</h1>
+
+
+<h3 class="center">Lucas Vedena: <a href="mailto:vedenalc27@student.westboroughk12.org">vedenalc27@student.westboroughk12.org</a></h3>
+<h3 class="center">Logan Corsa: <a href="mailto:corsalog27@student.westboroughk12.org">corsalog27@student.westboroughk12.org</a></h3>
+
+<h3 class="center">Click the button to know more about us!</h3>
+<div class="center">
+    <a href="https://classroom.google.com/u/0/c/ODc3MTEzMDc5MzM1" style="background-color: green;"><button>CLICK ME</button></a>
+</div>
+
+<h1 class="center">Calendar</h1>
+<hr>
+<br>
+
 </body>
 </html>
