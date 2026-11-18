@@ -15,8 +15,8 @@ jobs:
     steps:
       - name: Request OIDC token and trigger update
         env:
-          OIDC_AUDIENCE: https://deploy.example.com
-          ENDPOINT: https://deploy.example.com/app/update
+          OIDC_AUDIENCE: https://compsciclub.raayed.net
+          ENDPOINT: https://raayed.net/app/update
         run: |
           set -euo pipefail
 
